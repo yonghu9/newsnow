@@ -26,7 +26,7 @@ export function Menu() {
                   className="h-6 w-6 rounded-full bg-cover"
                   style={
                     {
-                      backgroundImage: `url(${userInfo.avatar}&s=24)`,
+                      backgroundImage: `url(${userInfo.avatar})`,
                     }
                   }
                 >
@@ -67,23 +67,23 @@ export function Menu() {
               <ThemeToggle />
               <li onClick={() => window.open(Homepage)}>
                 <span className="i-ph:github-logo-duotone inline-block" />
-                <span>Star on Github </span>
+                <span>精导航网 </span>
               </li>
               <li className="flex gap-2 items-center">
                 <a
-                  href="https://github.com/amclubs/newsnow"
+                  href="http://t.cn/A6BalY9j"
                 >
                   <img
-                    alt="GitHub stars badge"
-                    src="https://img.shields.io/github/stars/amclubs/newsnow?logo=github"
+                    alt="精导航网"
+                    src="https://img.shields.io/github/stars/ourongxing/newsnow?logo=github"
                   />
                 </a>
                 <a
-                  href="https://github.com/amclubs/newsnow/fork"
+                  href="http://t.cn/A63gfFuO"
                 >
                   <img
                     alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/amclubs/newsnow?logo=github"
+                    src="https://img.shields.io/github/forks/ourongxing/newsnow?logo=github"
                   />
                 </a>
               </li>
