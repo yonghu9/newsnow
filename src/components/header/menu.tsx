@@ -55,23 +55,23 @@ export function Menu() {
                 ? (
                     <li onClick={logout}>
                       <span className="i-ph:sign-out-duotone inline-block" />
-                      <span>退出登录</span>
+                    
                     </li>
                   )
                 : (
                     <li onClick={login}>
                       <span className="i-ph:sign-in-duotone inline-block" />
-                      <span>Github 账号登录</span>
+                   
                     </li>
                   ))}
               <ThemeToggle />
               <li onClick={() => window.open(Homepage)} className="cursor-pointer [&_*]:cursor-pointer transition-all">
                 <span className="i-ph:github-logo-duotone inline-block" />
-                <span>Star on Github </span>
+                <span>精导航网</span>
               </li>
               <li className="flex gap-2 items-center">
                 <a
-                  href="https://github.com/ourongxing/newsnow"
+                  href="http://t.cn/A63gfFuO"
                 >
                   <img
                     alt="GitHub stars badge"
@@ -79,7 +79,7 @@ export function Menu() {
                   />
                 </a>
                 <a
-                  href="https://github.com/ourongxing/newsnow/fork"
+                  href="http://t.cn/A63gfFuO"
                 >
                   <img
                     alt="GitHub forks badge"
